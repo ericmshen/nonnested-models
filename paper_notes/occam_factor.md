@@ -1,0 +1,4 @@
+# Model Comparison and Occam's Razor
+MacKay, 2003
+* **Goal**: Translate the intuition that "simpler explanations are better" into quantitative theory. Inference already embodies Occam's razor.
+* Let $\mathcal{H}_1$, $\mathcal{H}_2$ be two models. Then given data $D$, the Bayes factor is $\frac{P(D|\mathcal{H}_1)}{P(D|\mathcal{H}_2)}$. We can also use the (posterior odds) ratio $\frac{P(\mathcal{H}_1|D)}{P(\mathcal{H}_2|D)}=\frac{P(\mathcal{H}_1)}{P(\mathcal{H}_2)}$, where $\frac{P(\mathcal{H}_1)}{P(\mathcal{H}_2)}$ represents a prior bias on $\mathcal{H}_1$. If there is no prior bias, then this is equivalent to the Bayes factor. 
